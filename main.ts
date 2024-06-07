@@ -13,4 +13,4 @@ let words=answer.sentence.trim().split(" ");
 console.log(words);
 
 
-console.log(`total word count is ${words.length}`);
+console.log(`the total word count is ${words.length}`);

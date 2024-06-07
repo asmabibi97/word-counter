@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 let answer = await inquirer.prompt([{
         name: "sentence",
@@ -6,4 +7,4 @@ let answer = await inquirer.prompt([{
     }]);
 let words = answer.sentence.trim().split(" ");
 console.log(words);
-console.log(`total word count is ${words.length}`);
+console.log(`the total word count is ${words.length}`);
